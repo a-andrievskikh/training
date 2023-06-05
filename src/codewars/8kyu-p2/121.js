@@ -1,0 +1,1 @@
+const wrap = value => ( {value: value} )
