@@ -1,1 +1,1 @@
-const isSquare = arr => (!arr.length) ? undefined : arr.every(x => Math.sqrt(x) % 1 === 0)
+const isSquare = arr => arr.length ? arr.every(x => Math.sqrt(x) % 1 === 0) : undefined
