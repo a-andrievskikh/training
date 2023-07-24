@@ -1,0 +1,1 @@
+const length = head => head === null ? 0 : 1 + length(head.next)
