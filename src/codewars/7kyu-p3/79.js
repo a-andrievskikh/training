@@ -1,0 +1,1 @@
+const numbers = (...params) => params.every(x => typeof x === 'number')
